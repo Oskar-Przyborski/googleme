@@ -35,7 +35,8 @@ func main() {
 	println()
 	response, err := http.Get(url)
 	if err != nil {
-		println("Error while getting response from google: ", err.Error())
+		println("Error while getting response from google:\n" + err.Error() + "\nMaybe you don't have internet acces or the app's api keys don't work")
+		return
 	}
 
 	var data ResponseType
