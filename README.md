@@ -1,9 +1,9 @@
 # googleme
-Googleme is a cli tool, that just googles pased query.
+Googleme is a cli tool, that just googles pased query.  
 I don't know if it's legal, so if anyone has any objections, please contact me :>>
 
 # Usage
-Built the executable file with
+Build the executable file with
 ```console
 $ go build
 ```
